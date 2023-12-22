@@ -1,5 +1,8 @@
 import torch
 import torch.nn as nn
+from bigram import *
+from multihead import *
+from feedfwd import *
 
 
 class Block(nn.Module):
